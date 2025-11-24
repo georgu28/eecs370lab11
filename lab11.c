@@ -46,5 +46,12 @@ void access_struct(example *ex) {
     count += (int) ex->d;
     count += (int) ex->e;
     count += (int) ex->f;
+
+    printf("%zu\n", sizeof(ex->a));
+    printf("%zu\n", sizeof(ex->b));
+    printf("%zu\n", sizeof(ex->c));
+    printf("%zu\n", sizeof(ex->d));
+    printf("%zu\n", sizeof(ex->e));
+    printf("%zu\n", sizeof(ex->f));
 }
 
